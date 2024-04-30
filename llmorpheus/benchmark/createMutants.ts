@@ -101,6 +101,7 @@ if (require.main === module) {
     const argv = await parser.argv;
 
     const supportedModels = [
+      "codellama-7b-instruct",
       "codellama-13b-instruct",
       "codellama-34b-instruct",
       "mistral-7b-instruct",
